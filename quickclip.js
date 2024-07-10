@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Capture Video Time with Hotkey
 // @namespace    http://tampermonkey.net/
-// @version      1.3
+// @version      1.0
 // @description  Capture the current time in seconds on a video using a hotkey and copy it to clipboard as an object
 // @author       Your Name
-// @match        *://*/*
+// @match        https://www.youtube.com/*
 // @grant        none
 // ==/UserScript==
 
