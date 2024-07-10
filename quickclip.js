@@ -36,8 +36,8 @@
                 let seconds = totalSeconds % 60;
                 let videoUrl = window.location.href;
                 let clipInfo = {
-                    "Start Time": `${minutes}:${seconds.toString().padStart(2, '0')}`,
-                    "End Time": `${Math.floor(currentTime / 60)}:${Math.floor(currentTime % 60).toString().padStart(2, '0')}`,
+                    "Start_Time": `${minutes}:${seconds.toString().padStart(2, '0')}`,
+                    "End_Time": `${Math.floor(currentTime / 60)}:${Math.floor(currentTime % 60).toString().padStart(2, '0')}`,
                     "URL": videoUrl
                 };
 
